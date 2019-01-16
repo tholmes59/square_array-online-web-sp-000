@@ -1,5 +1,7 @@
 def square_array(array)
+  newArray = []
   array.each do |number|
-    puts "#{number}**2"
+  newArray.push number**2
   end
+  newArray
 end
